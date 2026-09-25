@@ -1,0 +1,16 @@
+/*
+Create a Color class that has as its private member variables three integers 
+    representing the red, green, and blue values of that color.
+
+Code normal setter & getter member functions. 
+    Also code a member print() method to print the object data.
+
+In main(), create several Color objects, populate them with data, and 
+    output their values to the console in neatly-formatted output using the object's print() method.
+
+Commit your code every ten minutes while working. Set a timer.
+*/
+
+//Eduardo Avila
+//COMSC - 210 - 5293
+//Lab 14 - Color Class
