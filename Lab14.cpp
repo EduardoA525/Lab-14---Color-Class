@@ -1,16 +1,3 @@
-/*
-Create a Color class that has as its private member variables three integers 
-    representing the red, green, and blue values of that color.
-
-Code normal setter & getter member functions. 
-    Also code a member print() method to print the object data.
-
-In main(), create several Color objects, populate them with data, and 
-    output their values to the console in neatly-formatted output using the object's print() method.
-
-Commit your code every ten minutes while working. Set a timer.
-*/
-
 //Eduardo Avila
 //COMSC - 210 - 5293
 //Lab 14 - Color Class
@@ -41,11 +28,10 @@ public:
     void print(){
         cout << "Red Value: " << red << endl;
         cout << "Green Value: " << green << endl;
-        cout << "Blue Value: " << blue << "\n" << endl;
-        cout << "---------------\n" << endl;
+        cout << "Blue Value: " << blue << endl;
+        cout << "---------------" << endl;
     }
 };
-
 
 int main(){
 
@@ -58,6 +44,21 @@ int main(){
 
     color1.print();
 
+    Color color2;
+
+    color2.setRed(0);
+    color2.setGreen(230);
+    color2.setBlue(80);
+
+    color2.print();
+
+    Color color3;
+
+    color3.setRed(130);
+    color3.setGreen(90);
+    color3.setBlue(245);
+
+    color3.print();
 
     return 0;
 }
