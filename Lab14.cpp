@@ -26,7 +26,8 @@ private:
     int green;
     int blue;
 
-public: //Setters and Getters
+public: 
+    //Setters and Getters
     int getRed()        { return red; }
     void setRed(int r)  { red = r; }
 
@@ -36,18 +37,26 @@ public: //Setters and Getters
     int getBlue()        { return blue; }
     void setBlue(int b)  { blue = b; }
 
-    
-
-
-
-
-
-
+    //Print function for output
+    void print(){
+        cout << "Red Value: " << red << endl;
+        cout << "Green Value: " << green << endl;
+        cout << "Blue Value: " << blue << "\n" << endl;
+        cout << "---------------\n" << endl;
+    }
 };
 
 
 int main(){
 
+    //Create colors and put random data in them
+    Color color1;
+
+    color1.setRed(100);
+    color1.setGreen(20);
+    color1.setBlue(0);
+
+    color1.print();
 
 
     return 0;
